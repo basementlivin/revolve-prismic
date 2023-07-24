@@ -1,0 +1,46 @@
+{
+  "id": "featured_event",
+  "type": "SharedSlice",
+  "name": "FeaturedEvent",
+  "description": "FeaturedEvent",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "event_date": {
+          "type": "Date",
+          "config": { "label": "Event Date", "placeholder": "" }
+        },
+        "event_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Event Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "event_program": {
+          "type": "Select",
+          "config": {
+            "label": "Event Program",
+            "placeholder": "",
+            "options": [
+              "Revolve Sound",
+              "Revolve Screens",
+              "Queer Artist Meetup",
+              "Current Exhibition"
+            ],
+            "default_value": "Revolve Sound"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

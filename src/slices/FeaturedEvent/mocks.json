@@ -1,0 +1,30 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"event_date": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2018-11-15"
+			},
+			"event_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Labore ut ex fugiat exercitation excepteur dolore ut sit laborum consectetur ea."
+						}
+					}
+				]
+			},
+			"event_program": {
+				"__TYPE__": "FieldContent",
+				"value": "Revolve Sound",
+				"type": "Select"
+			}
+		},
+		"items": []
+	}
+]
